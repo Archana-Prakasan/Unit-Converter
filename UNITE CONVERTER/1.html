@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h2>Unit Converter</h2>
+
+    <div class="input-fields">
+      <input type="text" id="input-value" placeholder="Enter value to convert">
+      <select id="to-unit" class="unit-selector">
+        <option value="m">Meter (m)</option>
+        <option value="km">Kilometer (km)</option>
+        <option value="cm">Centimeter (cm)</option>
+      </select>
+      <select id="from-unit" class="unit-selector">
+        <option value="m">Meter (m)</option>
+        <option value="km">Kilometer (km)</option>
+        <option value="cm">Centimeter (cm)</option>
+      </select>
+    </div>
+    <div id="result"></div>
+
+    <div class="keys" style="display: flex; justify-content: center;height: 50%;">
+    <div class="buttons" >
+      <button class="num-btn">1</button>
+      <button class="num-btn">2</button>
+      <button class="num-btn">3</button>
+      
+      <button class="num-btn">4</button>
+      <button class="num-btn">5</button>
+      <button class="num-btn">6</button>
+      <button class="num-btn">7</button>
+      <button class="num-btn">8</button>
+      <button class="num-btn">9</button>
+      <button class="decimal-btn">.</button>
+      <button class="clear-btn">C</button>
+
+      <button class="num-btn">0</button>
+    </div>
+    <div class="convert">
+      <button id="convert-btn" >Convert</button>
+    </div>
+  </div>
+  </div>
+  <script src="1.js"></script>
+</body>
+</html>
